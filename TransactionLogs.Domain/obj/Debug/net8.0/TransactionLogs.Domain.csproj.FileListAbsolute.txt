@@ -1,0 +1,14 @@
+D:\Backend\TransactionLogs\TransactionLogs.Domain\bin\Debug\net8.0\TransactionLogs.Domain.deps.json
+D:\Backend\TransactionLogs\TransactionLogs.Domain\bin\Debug\net8.0\TransactionLogs.Domain.dll
+D:\Backend\TransactionLogs\TransactionLogs.Domain\bin\Debug\net8.0\TransactionLogs.Domain.pdb
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.AssemblyInfoInputs.cache
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.AssemblyInfo.cs
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.csproj.CoreCompileInputs.cache
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.dll
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\refint\TransactionLogs.Domain.dll
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.pdb
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\ref\TransactionLogs.Domain.dll
+D:\Backend\TransactionLogs\TransactionLogs.Domain\bin\Debug\net8.0\TransactionLogs.Domain.runtimeconfig.json
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.csproj.AssemblyReference.cache
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.genruntimeconfig.cache

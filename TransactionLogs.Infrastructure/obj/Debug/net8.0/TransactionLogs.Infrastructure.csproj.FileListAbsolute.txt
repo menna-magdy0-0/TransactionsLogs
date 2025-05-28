@@ -1,0 +1,17 @@
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\bin\Debug\net8.0\TransactionLogs.Infrastructure.deps.json
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\bin\Debug\net8.0\TransactionLogs.Infrastructure.runtimeconfig.json
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\bin\Debug\net8.0\TransactionLogs.Infrastructure.dll
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\bin\Debug\net8.0\TransactionLogs.Infrastructure.pdb
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\bin\Debug\net8.0\TransactionLogs.Domain.dll
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\bin\Debug\net8.0\TransactionLogs.Domain.pdb
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.csproj.AssemblyReference.cache
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.AssemblyInfoInputs.cache
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.AssemblyInfo.cs
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\Transact.7BAF29A9.Up2Date
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.dll
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\refint\TransactionLogs.Infrastructure.dll
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.pdb
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.genruntimeconfig.cache
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\ref\TransactionLogs.Infrastructure.dll

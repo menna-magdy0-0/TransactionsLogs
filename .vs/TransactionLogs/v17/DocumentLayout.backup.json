@@ -1,0 +1,419 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Backend\\TransactionLogs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|d:\\backend\\transactionlogs\\transactionlogs.infrastructure\\interceptors\\auditsavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|solutionrelative:transactionlogs.infrastructure\\interceptors\\auditsavechangesinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|d:\\backend\\transactionlogs\\transactionlogs.infrastructure\\data\\transactioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|solutionrelative:transactionlogs.infrastructure\\data\\transactioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|d:\\backend\\transactionlogs\\transactionlogs.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|solutionrelative:transactionlogs.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|d:\\backend\\transactionlogs\\transactionlogs.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|solutionrelative:transactionlogs.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|d:\\backend\\transactionlogs\\transactionlogs.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|solutionrelative:transactionlogs.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|d:\\backend\\transactionlogs\\transactionlogs.web\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|solutionrelative:transactionlogs.web\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|d:\\backend\\transactionlogs\\transactionlogs.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|solutionrelative:transactionlogs.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|d:\\backend\\transactionlogs\\transactionlogs.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|solutionrelative:transactionlogs.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|d:\\backend\\transactionlogs\\transactionlogs.infrastructure\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|solutionrelative:transactionlogs.infrastructure\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|d:\\backend\\transactionlogs\\transactionlogs.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|solutionrelative:transactionlogs.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|d:\\backend\\transactionlogs\\transactionlogs.infrastructure\\data\\transactioncontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|solutionrelative:transactionlogs.infrastructure\\data\\transactioncontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|d:\\backend\\transactionlogs\\transactionlogs.domain\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|solutionrelative:transactionlogs.domain\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|d:\\backend\\transactionlogs\\transactionlogs.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|solutionrelative:transactionlogs.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|d:\\backend\\transactionlogs\\transactionlogs.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|solutionrelative:transactionlogs.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|d:\\backend\\transactionlogs\\transactionlogs.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|solutionrelative:transactionlogs.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|d:\\backend\\transactionlogs\\transactionlogs.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7557E7F-3BBB-427E-B20E-846540BBF5ED}|TransactionLogs.Domain\\TransactionLogs.Domain.csproj|solutionrelative:transactionlogs.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528035639_InitialV5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransactionLogs.Infrastructure\\Migrations\\20250528035639_InitialV5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528034854_InitialV4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransactionLogs.Infrastructure\\Migrations\\20250528034854_InitialV4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528033551_InitialV3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransactionLogs.Infrastructure\\Migrations\\20250528033551_InitialV3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528031930_InitialV2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransactionLogs.Infrastructure\\Migrations\\20250528031930_InitialV2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528031702_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TransactionLogs.Infrastructure\\Migrations\\20250528031702_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|d:\\backend\\transactionlogs\\transactionlogs.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0AC3698E-C78F-4CF9-B31E-B6382F44F554}|TransactionLogs.web\\TransactionLogs.web.csproj|solutionrelative:transactionlogs.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|d:\\backend\\transactionlogs\\transactionlogs.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CADC48-3FF3-4A43-898A-562A4E24B984}|TransactionLogs.Infrastructure\\TransactionLogs.Infrastructure.csproj|solutionrelative:transactionlogs.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250528035639_InitialV5.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528035639_InitialV5.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Migrations\\20250528035639_InitialV5.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528035639_InitialV5.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Migrations\\20250528035639_InitialV5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:56:39.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250528034854_InitialV4.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528034854_InitialV4.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Migrations\\20250528034854_InitialV4.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528034854_InitialV4.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Migrations\\20250528034854_InitialV4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:48:54.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250528033551_InitialV3.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528033551_InitialV3.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Migrations\\20250528033551_InitialV3.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528033551_InitialV3.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Migrations\\20250528033551_InitialV3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:35:51.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250528031930_InitialV2.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528031930_InitialV2.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Migrations\\20250528031930_InitialV2.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528031930_InitialV2.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Migrations\\20250528031930_InitialV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:19:31.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250528031702_Initial.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528031702_Initial.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Migrations\\20250528031702_Initial.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Migrations\\20250528031702_Initial.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Migrations\\20250528031702_Initial.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:17:03.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionContextFactory.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Data\\TransactionContextFactory.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Data\\TransactionContextFactory.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Data\\TransactionContextFactory.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Data\\TransactionContextFactory.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T02:20:04.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\appsettings.json",
+              "RelativeDocumentMoniker": "TransactionLogs.web\\appsettings.json",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\appsettings.json",
+              "RelativeToolTip": "TransactionLogs.web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T01:59:45.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TransactionLogs.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:50:22.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "TransactionLogs.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:50:05.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.web\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TransactionLogs.web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEgAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:15:37.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.web\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TransactionLogs.web\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:10:58.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.web\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "TransactionLogs.web\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:10:42.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:02:37.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Domain\\Entities\\Transaction.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Entities\\Transaction.cs",
+              "RelativeToolTip": "TransactionLogs.Domain\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T23:10:50.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Interfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Domain\\Interfaces\\ITransactionRepository.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Interfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "TransactionLogs.Domain\\Interfaces\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:34:28.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:34:09.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:30:46.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Program.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.web\\Program.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.web\\Program.cs",
+              "RelativeToolTip": "TransactionLogs.web\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAawB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:28:15.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionContext.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Data\\TransactionContext.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Data\\TransactionContext.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Data\\TransactionContext.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Data\\TransactionContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:21:12.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuditSaveChangesInterceptor.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Interceptors\\AuditSaveChangesInterceptor.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Interceptors\\AuditSaveChangesInterceptor.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Interceptors\\AuditSaveChangesInterceptor.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Interceptors\\AuditSaveChangesInterceptor.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:21:01.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "TransactionLogs.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:20:39.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "TransactionLogs.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:20:39.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TransactionLogs.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\Backend\\TransactionLogs\\TransactionLogs.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "TransactionLogs.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:20:38.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
