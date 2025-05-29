@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionLogs.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionLogs.Domain", "TransactionLogs.Domain\TransactionLogs.Domain.csproj", "{C7557E7F-3BBB-427E-B20E-846540BBF5ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionLogs.Consumer", "TransactionLogs.Consumer\TransactionLogs.Consumer.csproj", "{D01E7223-CFF2-4029-8D02-815B6F31C8BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{C7557E7F-3BBB-427E-B20E-846540BBF5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7557E7F-3BBB-427E-B20E-846540BBF5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7557E7F-3BBB-427E-B20E-846540BBF5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01E7223-CFF2-4029-8D02-815B6F31C8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01E7223-CFF2-4029-8D02-815B6F31C8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01E7223-CFF2-4029-8D02-815B6F31C8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01E7223-CFF2-4029-8D02-815B6F31C8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

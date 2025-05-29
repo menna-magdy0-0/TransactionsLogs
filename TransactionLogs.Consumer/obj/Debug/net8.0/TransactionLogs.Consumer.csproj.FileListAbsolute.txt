@@ -1,0 +1,15 @@
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\bin\Debug\net8.0\TransactionLogs.Consumer.exe
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\bin\Debug\net8.0\TransactionLogs.Consumer.deps.json
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\bin\Debug\net8.0\TransactionLogs.Consumer.runtimeconfig.json
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\bin\Debug\net8.0\TransactionLogs.Consumer.dll
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\bin\Debug\net8.0\TransactionLogs.Consumer.pdb
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.AssemblyInfoInputs.cache
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.AssemblyInfo.cs
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.csproj.CoreCompileInputs.cache
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.sourcelink.json
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.dll
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\refint\TransactionLogs.Consumer.dll
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.pdb
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\TransactionLogs.Consumer.genruntimeconfig.cache
+D:\Backend\TransactionLogs\TransactionLogs.Consumer\obj\Debug\net8.0\ref\TransactionLogs.Consumer.dll

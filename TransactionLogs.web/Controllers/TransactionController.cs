@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Rebus.Bus;
+using TransactionLogs.Domain.Entities;
 using TransactionLogs.Domain.Interfaces;
 
 namespace TransactionLogs.web.Controllers
@@ -28,6 +30,25 @@ namespace TransactionLogs.web.Controllers
             }
 
             return Ok(transactions);
+        }
+
+        [HttpPost("test-rabbit")]
+        public async Task<IActionResult> TestRabbitMQ([FromServices] IBus bus)
+        {
+            var testLog = new List<Transaction>
+            {
+                new()
+                {
+                    TableName = "Test",
+                    OperationType = "Create",
+                    PrimaryKeyValue = "1",
+                    EntityData = "{}",
+                    TimeStamp = DateTime.UtcNow
+                }
+            };
+
+            await bus.Send(testLog);
+            return Ok("Test message sent to RabbitMQ");
         }
     }
 }

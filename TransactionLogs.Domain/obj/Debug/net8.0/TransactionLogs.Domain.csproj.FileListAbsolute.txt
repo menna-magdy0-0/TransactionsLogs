@@ -12,3 +12,4 @@ D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\ref\Transacti
 D:\Backend\TransactionLogs\TransactionLogs.Domain\bin\Debug\net8.0\TransactionLogs.Domain.runtimeconfig.json
 D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.csproj.AssemblyReference.cache
 D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.genruntimeconfig.cache
+D:\Backend\TransactionLogs\TransactionLogs.Domain\obj\Debug\net8.0\TransactionLogs.Domain.sourcelink.json

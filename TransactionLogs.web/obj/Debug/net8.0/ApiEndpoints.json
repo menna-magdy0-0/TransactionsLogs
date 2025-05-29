@@ -89,6 +89,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TransactionLogs.web.Controllers.TransactionController",
+    "Method": "TestRabbitMQ",
+    "RelativePath": "api/Transaction/test-rabbit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TransactionLogs.web.Controllers.UserController",
     "Method": "GetAllUsers",
     "RelativePath": "api/User",

@@ -15,3 +15,4 @@ D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\refin
 D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.pdb
 D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.genruntimeconfig.cache
 D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\ref\TransactionLogs.Infrastructure.dll
+D:\Backend\TransactionLogs\TransactionLogs.Infrastructure\obj\Debug\net8.0\TransactionLogs.Infrastructure.sourcelink.json

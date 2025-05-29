@@ -12,12 +12,12 @@ namespace TransactionLogs.Infrastructure.Data
 {
     public class TransactionContext : DbContext
     {
-        private readonly AuditSaveChangesInterceptor _auditInterceptor;
+        //private readonly AuditSaveChangesInterceptor _auditInterceptor;
 
-        public TransactionContext(DbContextOptions<TransactionContext> options, AuditSaveChangesInterceptor auditInterceptor) : base(options)
-        {
-            _auditInterceptor = auditInterceptor;
-        }
+        //public TransactionContext(DbContextOptions<TransactionContext> options, AuditSaveChangesInterceptor auditInterceptor) : base(options)
+        //{
+        //    _auditInterceptor = auditInterceptor;
+        //}
         public TransactionContext(DbContextOptions<TransactionContext> options) : base(options)
         {
             
@@ -31,14 +31,14 @@ namespace TransactionLogs.Infrastructure.Data
                 .Property(e => e.Id)
                 .UseIdentityColumn();
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("cs");
-            }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseSqlServer("cs");
+        //    }
             
-        }
+        //}
 
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<Product> Products { get; set; }

@@ -145,3 +145,9 @@ D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\zh-Hant\Microsof
 D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\Rebus.dll
+D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\Rebus.RabbitMq.dll
+D:\Backend\TransactionLogs\TransactionLogs.web\bin\Debug\net8.0\Rebus.ServiceProvider.dll
+D:\Backend\TransactionLogs\TransactionLogs.web\obj\Debug\net8.0\TransactionLogs.web.sourcelink.json

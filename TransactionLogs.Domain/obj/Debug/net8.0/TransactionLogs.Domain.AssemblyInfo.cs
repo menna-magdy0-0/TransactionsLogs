@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransactionLogs.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f842bbfbf4953a90d441c49be0b2f3d2ab83a76")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransactionLogs.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransactionLogs.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

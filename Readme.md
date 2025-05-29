@@ -1,116 +1,184 @@
-# Transaction Logs API
+# Audit Logging System with RabbitMQ Integration
 
-A RESTful API built with ASP.NET Core to track database transactions and changes automatically using Entity Framework Core interceptors.
+## Overview
+This system implements a robust audit logging solution that captures database changes via Entity Framework Core interceptors and sends them to RabbitMQ for asynchronous processing. The solution is designed to minimize impact on main application performance while ensuring reliable audit log persistence.
 
-## Features
+## Key Components
+1. **EF Core Interceptor**: Captures entity changes during `SaveChangesAsync`
+2. **RabbitMQ Integration**: Sends audit logs to message queue
+3. **Background Worker**: Processes messages and saves to database
+4. **SQL Server**: Stores audit logs persistently
 
-- **Audit Logging**: Automatically logs all CRUD operations (Create, Read, Update, Delete) on entities.
-- **Entity Tracking**: Tracks changes to `Product` and `User` entities.
-- **Transaction Metadata**: Stores operation type, table name, primary key, entity data, and timestamps.
-- **SQL Server Integration**: Uses SQL Server for data storage.
-- **RESTful API**: Exposes endpoints for managing Products, Users, and viewing Transaction logs.
-
-## Technologies Used
-
-- **Backend**: ASP.NET Core 6+
-- **Database**: SQL Server + Entity Framework Core
-- **Audit Logging**: EF Core Interceptors
-- **API Documentation**: Swagger/OpenAPI
-- **Dependency Injection**: Built-in .NET Core DI
-
-## Getting Started
-
-### Prerequisites
-
-- [.NET 6 SDK](https://dotnet.microsoft.com/download)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
-
-### Installation
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/transaction-logs-api.git
-   cd transaction-logs-api
-   ```
-
-2. **Database Setup**
-   - Update connection string in `appsettings.json`:
-     ```json
-     "ConnectionStrings": {
-       "cs": "Server=your_server;Database=TransactionLogsDB;Integrated Security=True;TrustServerCertificate=True;"
-     }
-     ```
-   - Run migrations:
-     ```bash
-     dotnet ef database update
-     ```
-
-3. **Run the Application**
-   ```bash
-   dotnet run
-   ```
-   The API will be available at `https://localhost:7111`.
-
-4. **Access Swagger UI**
-   Visit `https://localhost:7111/swagger` to explore the API endpoints.
-
-## API Documentation
-
-### Endpoints
-
-#### Products
-| Method | Endpoint         | Description                  |
-|--------|------------------|------------------------------|
-| GET    | /api/Product     | Get all products             |
-| GET    | /api/Product/{id}| Get product by ID            |
-| POST   | /api/Product     | Create new product           |
-| PUT    | /api/Product/{id}| Update existing product      |
-| DELETE | /api/Product/{id}| Delete product               |
-
-#### Users
-| Method | Endpoint       | Description                |
-|--------|----------------|----------------------------|
-| GET    | /api/User      | Get all users              |
-| GET    | /api/User/{id} | Get user by ID             |
-| POST   | /api/User      | Create new user            |
-| PUT    | /api/User/{id} | Update existing user       |
-| DELETE | /api/User/{id} | Delete user                |
-
-#### Transactions
-| Method | Endpoint          | Description                |
-|--------|-------------------|----------------------------|
-| GET    | /api/Transaction  | Get all audit logs         |
-
-### Audit Logging Mechanism
-- **Automatic Tracking**: All database operations are intercepted and logged to the `Transactions` table.
-- **Data Captured**:
-  - Operation type (Add/Update/Delete)
-  - Affected table name
-  - Primary key value
-  - Full entity snapshot (JSON)
-  - Timestamp
-
-## Project Structure
-
+## System Architecture
 ```
-TransactionLogs/
-├── Domain/
-│   ├── Entities/          # Database entities (Product, User, Transaction)
-│   └── Interfaces/        # Repository interfaces
-├── Infrastructure/
-│   ├── Data/              # DbContext and migrations
-│   ├── Interceptors/      # Audit logging implementation
-│   └── Repositories/      # Repository implementations
-├── web/                   # API Controllers
-└── appsettings.json       # Configuration
+[API Endpoint]
+    │
+    │ (1) Entity Operation (Create/Update/Delete)
+    ▼
+[EF Core Interceptor]
+    │
+    │ (2) Send audit logs to RabbitMQ
+    ▼
+[RabbitMQ Queue]
+    │
+    │ (3) Deliver messages
+    ▼
+[Background Worker]
+    │
+    │ (4) Save to database
+    ▼
+[SQL Server Database]
 ```
 
-## Contributing
+## Prerequisites
+- .NET 8 SDK
+- SQL Server 2019+
+- RabbitMQ 3.11+
+- Windows OS (or adjust for Linux/Mac)
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+## Setup Instructions
 
+### 1. Clone Repository
+```bash
+git clone https://github.com/your-repo/audit-logging-system.git
+cd audit-logging-system
+```
+
+### 2. Configure Database
+Update connection string in `appsettings.json`:
+```json
+"ConnectionStrings": {
+  "cs": "Server=localhost\\MSSQLSERVER01;Database=TransactionsLogs;User Id=your-user;Password=your-password;TrustServerCertificate=True;"
+}
+```
+
+### 3. Configure RabbitMQ
+Update RabbitMQ settings in `appsettings.json`:
+```json
+"RabbitMQ": {
+  "Host": "localhost",
+  "Username": "guest",
+  "Password": "guest"
+}
+```
+
+### 4. Apply Database Migrations
+```bash
+dotnet ef database update --project TransactionLogs
+```
+
+### 5. Start RabbitMQ (Windows)
+```powershell
+rabbitmq-service.bat start
+rabbitmq-plugins enable rabbitmq_management
+```
+
+## Running the Application
+
+### Start the API
+```bash
+dotnet run --project TransactionLogs
+```
+
+### Start the Background Worker
+```bash
+dotnet run --project TransactionLogs
+```
+
+## Testing the System
+
+### 1. Create a Product
+```bash
+POST /api/product
+Content-Type: application/json
+
+{
+  "name": "Test Product",
+  "price": 29.99
+}
+```
+
+### 2. Verify Logs
+Check application logs for:
+```
+Sent 1 audit logs to RabbitMQ
+Received 1 audit logs
+Saved 1 audit logs to database
+```
+
+### 3. View Audit Logs
+```bash
+GET /api/transaction
+```
+
+## Monitoring
+
+### RabbitMQ Dashboard
+Access the RabbitMQ management interface:
+```
+http://localhost:15672
+Credentials: guest/guest
+```
+
+### Database Verification
+Query audit logs table:
+```sql
+SELECT * FROM Transactions ORDER BY TimeStamp DESC
+```
+
+## Key Features
+
+- **Asynchronous Processing**: Audit logs are processed in background
+- **Entity Change Tracking**: Automatic capture of create/update/delete operations
+- **RabbitMQ Integration**: Reliable message queuing
+- **SQL Server Storage**: Persistent audit log storage
+- **Error Resilience**: Automatic retries for failed operations
+
+## Troubleshooting
+
+### Common Issues
+1. **RabbitMQ Connection Failed**:
+   - Verify RabbitMQ service is running
+   - Check firewall settings for port 5672
+
+2. **Database Connection Issues**:
+   - Validate connection string in appsettings.json
+   - Ensure SQL Server is accessible
+
+3. **No Audit Logs Created**:
+   - Check interceptor registration in Program.cs
+   - Verify entities are not excluded in interceptor
+
+### Log Locations
+- Application logs: Console output
+- RabbitMQ logs: `C:\Program Files\RabbitMQ Server\log\rabbit@localhost.log`
+- SQL Server logs: SQL Server Management Studio
+
+## Deployment
+
+### Windows Service
+```powershell
+sc create "AuditLogService" binPath="C:\path\to\TransactionLogs.exe"
+sc start AuditLogService
+```
+
+### Docker Container
+```Dockerfile
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY . .
+RUN dotnet restore "TransactionLogs.csproj"
+RUN dotnet build "TransactionLogs.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "TransactionLogs.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "TransactionLogs.dll"]
+```

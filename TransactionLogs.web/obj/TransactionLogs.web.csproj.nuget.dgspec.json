@@ -66,6 +66,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Rebus": {
+              "target": "Package",
+              "version": "[8.8.0, )"
+            },
+            "Rebus.RabbitMq": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Rebus.ServiceProvider": {
+              "target": "Package",
+              "version": "[10.3.0, )"
             }
           },
           "imports": [
@@ -170,6 +182,18 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Rebus": {
+              "target": "Package",
+              "version": "[8.8.0, )"
+            },
+            "Rebus.RabbitMq": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Rebus.ServiceProvider": {
+              "target": "Package",
+              "version": "[10.3.0, )"
             }
           },
           "imports": [
@@ -265,6 +289,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Rebus": {
+              "target": "Package",
+              "version": "[8.8.0, )"
+            },
+            "Rebus.RabbitMq": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Rebus.ServiceProvider": {
+              "target": "Package",
+              "version": "[10.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
